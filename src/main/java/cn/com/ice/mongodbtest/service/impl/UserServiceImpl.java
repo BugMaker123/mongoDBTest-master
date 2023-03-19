@@ -25,4 +25,9 @@ public class UserServiceImpl implements UserService {
     public User findData(User user) {
         return userMongoDbDao.queryOne(user);
     }
+
+
+    public User queryByChildField(User user){
+        return null;
+    }
 }
